@@ -118,7 +118,7 @@ func main() {
 		durationInTraffic := data.Rows[0].Elements[0].DurationInTraffic.Text
 
 		fmt.Printf("Traffic condition for location from '%s' to '%s':\n", data.OriginAddress[0], data.DestinationAddress[0])
-		fmt.Println("--------------------------------------------------------------------------\n")
+		fmt.Println()
 		fmt.Printf("Total Distance: %s\t\n", distance)
 		fmt.Printf("Time it will take: %s\t\n", duration)
 		fmt.Printf("Time it will take considering Traffic: %s\t\n", durationInTraffic)
