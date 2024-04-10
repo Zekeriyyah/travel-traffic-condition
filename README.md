@@ -10,7 +10,7 @@ The latitude and longitude are provided as a command-line flags
 > -lng_d : longitude of the destination
 ### Run
 Clone the repo and run   <br>
-Create .env file and store Api key with Key=GOOGLE_MAP_KEY and Value=YOUR_API_KEY    <br> <br>
+Create .env file and store your google map Api key with Key=GOOGLE_MAP_KEY and Value=YOUR_API_KEY    <br> <br>
 `go get github.com/joho/godotenv`   <br>
 `go build .`   <br>
 `./<app_name>  -lat_o  ORIG_LAT  -lng_o  ORIG_LONG  -lat_d  DEST_LAT  -lng_d  DEST_LONG`   <br><br>
