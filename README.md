@@ -19,7 +19,7 @@ Replace <app_name> with the name of the generated file after build and the value
 ## Example
 ### Command:
 > './travel-traffic -lat_o 40.6655101 -lng_o -73.89188969999998 -lat_d 40.729029 -lng_d -73.7527626'    <br>
-> ### Response:
+### Response:
 > Traffic condition for location from 'P.O. Box 793, Brooklyn, NY 11207, USA' to '215-12 86th Ave, Jamaica, NY 11427, USA':   <br><br>
 > Total Distance: 17.8 km    <br>
 > Time it will take: 27 mins   <br>
