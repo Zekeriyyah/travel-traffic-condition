@@ -12,7 +12,7 @@ The latitude and longitude are provided as a command-line flags
 Clone the repo and run   <br><br>
 `go get github.com/joho/godotenv`   <br>
 `go build .`   <br>
-`./<app_name> -lat_o ORIG_LAT -lng_o ORIG_LONG -lat_d DEST_LAT -lng_d DEST_LONG`   <br><br>
+`./<app_name>  -lat_o  ORIG_LAT  -lng_o  ORIG_LONG  -lat_d  DEST_LAT  -lng_d  DEST_LONG`   <br><br>
 Replace <app_name> with the name of the generated file after build and the value of the flags with valid latitude and longitude of the origin and the destination  
 
 ## Example
