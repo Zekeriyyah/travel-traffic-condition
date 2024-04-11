@@ -7,7 +7,7 @@ The latitude and longitude are provided as a command-line flags
 > -lat_o : latitude of the origin   <br>
 > -lng_o : longitude of the origin  <br>
 > -lat_d : latitude of the destination   <br>
-> -lng_d : longitude of the destination   <br>
+> -lng_d : longitude of the destination  
 To get a reasonable traffic condition of a place, the origin and the destination dimension must be well defined. Hence the need for latitude and longitude 
 of the origin and destination. Use the above flags to define the dimensions.
 ### Run
