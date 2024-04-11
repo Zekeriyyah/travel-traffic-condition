@@ -68,10 +68,7 @@ func main() {
 		return
 	}
 
-	var data TrafficData
-
 	// Loading Google API key from environment variable
-	// apiKey := data.getApiKEY()
 	err := godotenv.Load(".env")
 	if err != nil {
 		app.errorLog.Fatal("Error loading environment_variables...")
@@ -87,6 +84,7 @@ func main() {
 	url := fmt.Sprintf("%s?departure_time=now&origins=%s,%s&destinations=%s,%s&key=%s", apiURL, *lat1, *lng1, *lat2, *lng2, apiKey)
 
 	// invoking HTTP GET request to Google Distance Matrix API and populate TrafficData
+	var data TrafficData
 	data.getData(url)
 
 	// Handling errors related to response and response elements
