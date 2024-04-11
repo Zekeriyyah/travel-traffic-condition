@@ -1,6 +1,6 @@
 package main
 
-func checkStatus(data TrafficData) string {
+func (data *TrafficData) CheckStatus() string {
 	var msg string
 
 	switch data.Status {
@@ -29,7 +29,7 @@ func checkStatus(data TrafficData) string {
 	return msg
 }
 
-func checkElementStatus(data TrafficData) string {
+func (data *TrafficData) CheckElementStatus() string {
 	var msg string
 
 	switch data.Rows[0].Elements[0].Status {
