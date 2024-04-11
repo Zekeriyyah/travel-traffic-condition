@@ -3,13 +3,11 @@
 using the Google Maps Platform Distance Matrix API.*
 
 ### About
-The latitude and longitude are provided as a command-line flags
+To get a reasonable traffic condition of a place, the origin and the destination dimension must be well defined. Hence, the latitude and longitude of both the origin and destination are provided using command-line flags below:
 > -lat_o : latitude of the origin   <br>
 > -lng_o : longitude of the origin  <br>
 > -lat_d : latitude of the destination   <br>
 > -lng_d : longitude of the destination  
-To get a reasonable traffic condition of a place, the origin and the destination dimension must be well defined. Hence the need for latitude and longitude 
-of the origin and destination. Use the above flags to define the dimensions.
 ### Run
 Clone the repo and run   <br>
 Create .env file and store your google map Api key with Key=GOOGLE_MAP_KEY and Value=YOUR_API_KEY    <br> <br>
