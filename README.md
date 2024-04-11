@@ -9,8 +9,8 @@ To get a reasonable traffic condition of a place, the origin and the destination
 > -lat_d : latitude of the destination   <br>
 > -lng_d : longitude of the destination  
 ### Run
-Clone the repo and run   <br>
-Create .env file and store your google map Api key with Key=GOOGLE_MAP_KEY and Value=YOUR_API_KEY    <br> <br>
+Clone the repo and Create .env file. Store your google map Api key with Key=GOOGLE_MAP_KEY and Value=YOUR_API_KEY     <br>
+then run   <br> <br>
 `go get github.com/joho/godotenv`   <br>
 `go build .`   <br>
 `./<app_name>  -lat_o  ORIG_LAT  -lng_o  ORIG_LONG  -lat_d  DEST_LAT  -lng_d  DEST_LONG`   <br><br>
