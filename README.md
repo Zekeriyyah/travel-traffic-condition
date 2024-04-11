@@ -3,7 +3,7 @@
 using the Google Maps Platform Distance Matrix API.*
 
 ### About
-To get a reasonable traffic condition of a place, the origin and the destination dimension must be well defined. Hence, the latitude and longitude of both the origin and destination are provided using command-line flags below:
+To retrieve a reasonable traffic condition of a place, the origin and the destination dimension must be well defined. Hence, the latitude and longitude of both the origin and destination are provided using command-line flags below:
 > -lat_o : latitude of the origin   <br>
 > -lng_o : longitude of the origin  <br>
 > -lat_d : latitude of the destination   <br>
