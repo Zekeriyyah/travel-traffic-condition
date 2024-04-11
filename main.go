@@ -84,14 +84,12 @@ func main() {
 	}
 	defer resp.Body.Close()
 
-	// Reading response body
 	body, err := io.ReadAll(resp.Body)
 	if err != nil {
 		fmt.Printf("Error reading response body: %s\n", err.Error())
 		return
 	}
 
-	// Unmarshaling JSON response
 	var data TrafficData
 	err = json.Unmarshal(body, &data)
 	if err != nil {
