@@ -60,7 +60,7 @@ func main() {
 		return
 	}
 
-	// Getting Google API key from environment variable
+	// Loading Google API key from environment variable
 	err := godotenv.Load(".env")
 	if err != nil {
 		errorLog.Fatal("Error loading environment_variables...")
